@@ -95,7 +95,10 @@ curl -fsSL https://bun.sh/install | bash
 cd try-devnet/packages/cli/
 bun install
 ```
-
+if any error after using these command use these command 
+```
+PATH="/home/$(whoami)/.bun/bin:$PATH"
+```
 # 4. Send transactions
 
 ```
