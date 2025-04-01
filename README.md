@@ -76,8 +76,14 @@ This script will generate a wallet and promt a Faucet Url and the wallet address
 ```
 cd $home
 ```
+after that use these command 
 
+```
+sudo apt update && sudo apt install unzip -y
+
+```
 # 2. Install Bun
+
 
 ```
 curl -fsSL https://bun.sh/install | bash
